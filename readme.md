@@ -17,7 +17,7 @@ The custom Java stage uses the [REST call example from the GGSA documentation](h
 `sh createLocalMavenOsa.sh`
 4. Run Maven install on command line or using development environment  
 `mvn install`  
-This command will create a Custom Stage JAR ar `target/osaCustomStageRest-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
+This command will create a Custom Stage JAR at `target/osaCustomStageRest-0.0.1-SNAPSHOT-jar-with-dependencies.jar`
 5. In the GGSA Console, [create a custom JAR object](https://docs.oracle.com/en/middleware/fusion-middleware/osa/19.1/using/adding-custom-functions-and-custom-stages.html#UGOSA-GUID-263756AC-339A-4E38-8C9F-8C310CDD2D34).
 
 6. Create a pipeline that has ISBN strings as one of its fields. You can use the `books.csv` file in the project as input for a file stream. [Add a Custom JAR stage](https://docs.oracle.com/en/middleware/fusion-middleware/osa/19.1/using/adding-custom-functions-and-custom-stages.html#UGOSA-GUID-23080F34-B9F0-4AC9-AFA5-0056AA765C5D) into the pipeline with the ISBN string as input.
